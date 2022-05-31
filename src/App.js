@@ -48,9 +48,9 @@ export default function App() {
           </Typography>
           <Grid container justifyContent="center">
             <Grid item xs={12} sm={6} p={4}>
-              <Box component="a" target="_blank" href="https://discord.com/channels/943885697796943873/943885698249920575">
+              <Box component="a" target="_blank" href="https://discord.gg/2BYRdBF6JK">
                 <QRCode
-                  value="https://discord.com/channels/943885697796943873/943885698249920575"
+                  value="https://discord.gg/2BYRdBF6JK"
                   renderAs="svg"
                   size={null}
                   bgColor="transparent"
