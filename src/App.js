@@ -1,5 +1,5 @@
 import React from "react";
-import { Grid, Stack, Typography, Container, Box, Link } from "@mui/material";
+import { Grid, Stack, Typography, Container, Box } from "@mui/material";
 import { colors, ThemeProvider, theme } from "@ctrlup/rainbow-react";
 import { createTheme } from "@mui/material/styles";
 import QRCode from "qrcode.react";
@@ -48,14 +48,17 @@ export default function App() {
           </Typography>
           <Grid container justifyContent="center">
             <Grid item xs={12} sm={6} p={4}>
-              <Box component="a" target="_blank" href="https://discord.gg/2BYRdBF6JK">
+              <Box
+                component="a"
+                target="_blank"
+                href="https://discord.gg/2BYRdBF6JK"
+              >
                 <QRCode
                   value="https://discord.gg/2BYRdBF6JK"
                   renderAs="svg"
                   size={null}
                   bgColor="transparent"
                   fgColor="url(#rainbow)"
-
                 />
               </Box>
               <Typography textAlign="center">
@@ -66,7 +69,11 @@ export default function App() {
               </Typography>
             </Grid>
             <Grid item xs={12} sm={6} p={4}>
-              <Box component="a" target="_blank" href="https://www.meetup.com/tech-ctrl/">
+              <Box
+                component="a"
+                target="_blank"
+                href="https://www.meetup.com/tech-ctrl/"
+              >
                 <QRCode
                   value="https://www.meetup.com/tech-ctrl/"
                   renderAs="svg"
