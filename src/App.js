@@ -19,7 +19,14 @@ import {
   NpmIcon,
   Card,
 } from "@ctrlup/rainbow-react";
-import { GitHub, Instagram, LinkedIn, YouTube } from "@mui/icons-material";
+import {
+  CalendarMonth,
+  GitHub,
+  Instagram,
+  LinkedIn,
+  Message,
+  YouTube,
+} from "@mui/icons-material";
 import { createTheme } from "@mui/material/styles";
 
 const muiTheme = createTheme(theme);
@@ -67,7 +74,13 @@ export default function App() {
                 [tek] [kɔ̃tʁol]
               </Typography>
             </Box>
-            <Typography>La communauté tech de Ctrl Up.</Typography>
+            <Typography>
+              La communauté tech de{" "}
+              <Link href="https://www.ctrlup.dev/" target="_blank">
+                Ctrl Up
+              </Link>
+              .
+            </Typography>
             <Typography>
               L’équipe de développement de Ctrl Up a pour philosophie le partage
               de connaissance c’est pourquoi elle s’organise en une communauté
@@ -82,6 +95,7 @@ export default function App() {
           <Grid item xs={12} md={4}>
             <Card
               title="Discord"
+              icon={<Message />}
               sx={{
                 height: "100%",
                 display: "flex",
@@ -109,6 +123,7 @@ export default function App() {
           <Grid item xs={12} md={4}>
             <Card
               title="Meetup"
+              icon={<CalendarMonth />}
               sx={{
                 height: "100%",
                 display: "flex",
@@ -135,6 +150,7 @@ export default function App() {
           <Grid item xs={12} md={4}>
             <Card
               title="Calendrier"
+              icon={<CalendarMonth />}
               sx={{
                 height: "100%",
                 display: "flex",
