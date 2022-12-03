@@ -2,7 +2,6 @@ import React from "react";
 import {
   Stack,
   Typography,
-  Container,
   Box,
   Button,
   IconButton,
@@ -46,6 +45,16 @@ export default function App() {
         px={4}
         mt={8}
       >
+        <Box
+          component="img"
+          src="topographicalLines1.svg"
+          alt="topographical lines"
+          position="absolute"
+          minHeight={600}
+          top={-400}
+          right={0}
+          zIndex={-1}
+        />
         <Box width="100%" maxWidth="md">
           <Typography lineHeight={1} noWrap>
             Nous sommes
@@ -138,7 +147,7 @@ export default function App() {
                   </Typography>
                   <Typography>
                     Tu as un sujet ou une question que tu aimerais voir lors
-                    d'un de nos événements tech ? Renez-vous sur{" "}
+                    d'un de nos événements tech ? Rendez-vous sur{" "}
                     <Link
                       href="https://vote-up.netlify.app/"
                       target="_blank"
@@ -310,9 +319,9 @@ export default function App() {
           src="topographicalLines5.svg"
           alt="topographical lines"
           position="absolute"
-          bottom={-100}
+          minHeight={600}
+          bottom={-24}
           right={0}
-          width="100%"
           zIndex={-1}
         />
       </Stack>
