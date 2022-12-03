@@ -135,6 +135,15 @@ export default function App() {
                   Assistes (et présente) des sujets tech lors de nos meetups.
                   Rendez-vous dans nos bureaux à Darwin.
                 </Typography>
+                <Typography>
+                  Tu as un sujet ou une question que tu aimerais voir lors d'un
+                  de nos événements tech ? Renez-vous sur{" "}
+                  <Link href="https://vote-up.netlify.app/" target="_blank">
+                    Vote up
+                  </Link>{" "}
+                  où tu peux proposer et/ou voter pour tes sujets préférés,
+                  ainsi que te proposer en tant que présentateur.
+                </Typography>
               </CardContent>
               <CardActions>
                 <Button
