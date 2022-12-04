@@ -2020,9 +2020,9 @@
     "@cspotcode/source-map-consumer" "0.8.0"
 
 "@ctrlup/rainbow-react@^2.2.1":
-  version "2.2.1"
-  resolved "https://registry.npmjs.org/@ctrlup/rainbow-react/-/rainbow-react-2.2.1.tgz"
-  integrity sha512-t9VMtGtcUYp/LJZJcCK4jd8Jde/fEd4CD5w6ferMmcwto5o+1+CJhJij6bKTLzeZ3nowiMdyq84/LG75qsIOyg==
+  version "2.2.2"
+  resolved "https://registry.yarnpkg.com/@ctrlup/rainbow-react/-/rainbow-react-2.2.2.tgz#b167904343d62a5be55526ba2f75544eaf2a222b"
+  integrity sha512-/Gp7BExpPlVdZd2A4c/yK4gN9ODkxndarrzzbgBYOZ4/7zswXIjIj85PbCiX+a6AW/U8X354EKMxj8MoW8oLZQ==
   dependencies:
     prop-types "^15.8.1"
 
@@ -6179,7 +6179,7 @@ log-update@^4.0.0:
 
 loose-envify@^1.1.0, loose-envify@^1.4.0:
   version "1.4.0"
-  resolved "https://registry.npmjs.org/loose-envify/-/loose-envify-1.4.0.tgz"
+  resolved "https://registry.yarnpkg.com/loose-envify/-/loose-envify-1.4.0.tgz#71ee51fa7be4caec1a63839f7e682d8132d30caf"
   integrity sha512-lyuxPGr/Wfhrlem2CL/UcnUc1zcqKAImBDzukY7Y5F/yQiNdko6+fRLevlw1HgMySw7f611UIY408EtxRSoK3Q==
   dependencies:
     js-tokens "^3.0.0 || ^4.0.0"
@@ -6770,8 +6770,8 @@ nullthrows@^1.1.1:
 
 object-assign@^4.1.1:
   version "4.1.1"
-  resolved "https://registry.npmjs.org/object-assign/-/object-assign-4.1.1.tgz"
-  integrity sha1-IQmtx5ZYh8/AXLvUQsrIv7s2CGM=
+  resolved "https://registry.yarnpkg.com/object-assign/-/object-assign-4.1.1.tgz#2109adc7965887cfc05cbbd442cac8bfbb360863"
+  integrity sha512-rJgTQnkUnH1sFw8yT6VSU3zD3sWmu6sZhIseY8VX+GRu3P6F7Fu+JNDoXfklElbLJSnc3FUQHVe4cU5hj+BcUg==
 
 object-inspect@^1.12.0, object-inspect@^1.9.0:
   version "1.12.0"
