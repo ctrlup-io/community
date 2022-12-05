@@ -61,6 +61,8 @@ export default function App() {
           </Typography>
           <Typography
             variant="h1"
+            fontFamily="Montserrat"
+            fontWeight={900}
             display="inline-block"
             fontSize={64}
             lineHeight={1}
